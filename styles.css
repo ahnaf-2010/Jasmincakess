@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #FF6347;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #FF6347;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#hero h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #fff;
+    color: #FF6347;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #FF4500;
+    color: white;
+}
+
+/* Cake Catalog */
+#catalog {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cake-item {
+    text-align: center;
+    width: calc(50% - 20px); /* For 2 cakes per row */
+}
+
+.cake-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.cake-item p {
+    margin: 10px 0;
+}
+
+.cake-item .btn {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Order Form */
+#order-form {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#order-form label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#order-form input, #order-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#order-form button {
+    background-color: #FF6347;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#order-form button:hover {
+    background-color: #FF4500;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.2em;
+}
+
+#contact a {
+    color: #FF6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #FF4500;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
